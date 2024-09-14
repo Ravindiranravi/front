@@ -1,0 +1,51 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #282c34;
+  color: white;
+}
+
+.Header-logo img {
+  height: 40px;
+}
+
+.Header-title h1 {
+  margin: 0;
+}
+
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #282c34;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.Footer-logos {
+  display: flex;
+  gap: 10px; 
+}
+
+.Footer-logo {
+  height: 30px; 
+ }
+
+.Footer-contact a {
+  color: #61dafb;
+  text-decoration: none;
+} 
+ 
